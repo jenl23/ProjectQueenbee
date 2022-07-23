@@ -10,7 +10,7 @@ import { IoMoon, IoSunny } from "react-icons/io5";
 const logoImage = "logo_black.png";
 const logoImageDark = "logo_white.png";
 const openseaURL = "https://testnets.opensea.io/collection/projectlion-nft";
-const discordURL = "https://discord.gg/JV4whBWNPs";
+const discordURL = "https://discord.gg/A6URSNxy";
 const instagramURL = "https://www.instagram.com/projectlion.io/";
 
 const Header: FC = () => {
@@ -61,11 +61,6 @@ const Header: FC = () => {
         <Link href={discordURL}>
           <Button variant="ghost" size={["xs", "xs", "sm"]}>
             <FaDiscord size={24} />
-          </Button>
-        </Link>
-        <Link href={instagramURL}>
-          <Button variant="ghost" size={["xs", "xs", "sm"]}>
-            <FaInstagram size={24} />
           </Button>
         </Link>
         <Box onClick={toggleColorMode}>
