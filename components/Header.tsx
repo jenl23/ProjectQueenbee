@@ -9,7 +9,7 @@ import { IoMoon, IoSunny } from "react-icons/io5";
 // @ 로고 이미지는 public/images를 교체하시면 됩니다. URL은 우리 프로젝트의 URL을 작성하시면 됩니다.
 const logoImage = "logo_black.png";
 const logoImageDark = "logo_white.png";
-const openseaURL = "https://testnets.opensea.io/collection/projectlion-nft";
+const openseaURL = "https://opensea.io/collection/queen-bee-artist-club";
 const discordURL = "https://discord.gg/A6URSNxy";
 const instagramURL = "https://www.instagram.com/projectlion.io/";
 
