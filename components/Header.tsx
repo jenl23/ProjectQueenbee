@@ -24,6 +24,7 @@ const Header: FC = () => {
     <Flex
       position="fixed"
       w="100%"
+      h="100px"
       top="0"
       justifyContent="space-between"
       alignItems="center"
@@ -31,18 +32,13 @@ const Header: FC = () => {
       shadow="md"
       zIndex={1}
       flexDir={["column", "column", "row"]}
+      backgroundImage= "url('../images/header.jpg')"
     >
       <Box fontWeight="bold" fontSize="lg" cursor="pointer">
         <Link href="/">
-          <Image
-            w={200}
-            src={
-              colorMode === "light"
-                ? `../images/${logoImage}`
-                : `../images/${logoImageDark}`
-            }
-            alt="LOGO"
-          />
+          <h1>
+            Queen Bee Artists Club
+          </h1>
         </Link>
       </Box>
       <Box>
@@ -83,16 +79,7 @@ const Header: FC = () => {
             </Button>
           )}
         </Box>
-        <Box>
-          <Link
-            href={router.asPath}
-            locale={router.locale === "en" ? "ko" : "en"}
-          >
-            <Button variant="ghost" size={["xs", "xs", "sm"]}>
-              {router.locale === "en" ? "EN" : "KO"}
-            </Button>
-          </Link>
-        </Box>
+        
       </Flex>
     </Flex>
   );

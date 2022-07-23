@@ -3,8 +3,8 @@ import { FC } from "react";
 
 // @ 팀 주소 및 카피라이트에 관한 정보를 입력합니다.
 const contactInfo =
-  "Team ProjectLion NFT | 443, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea | E-Mail h662@olbm.app";
-const copyRight = "COPYRIGHT © Team ProjectLion NFT. ALL RIGHT RESERVED";
+  "Team Queen Bee Artists Club | 443, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea | E-Mail info@qbac.com";
+const copyRight = "COPYRIGHT © Team Queen Bee Artists Club. ALL RIGHT RESERVED";
 
 const Footer: FC = () => {
   const { colorMode } = useColorMode();
@@ -15,10 +15,15 @@ const Footer: FC = () => {
       alignItems="center"
       flexDir="column"
       p={[4, 4, 2]}
-      bgColor={colorMode === "light" ? "gray.100" : "gray.900"}
+      backgroundImage= "url('../images/footer.jpg')"
+      minH="80px"
     >
-      <Text fontSize={["xs", "xs", "sm"]}>{contactInfo}</Text>
-      <Text fontSize="xs" mt={1}>
+      <Text 
+        fontSize={["xs", "xs", "sm"]}
+        color="white"
+        textShadow= "0px 2px 5px rgb(0,0,0)"
+      >{contactInfo}</Text>
+      <Text fontSize="xs" mt={1} color="white" textShadow= "0px 2px 5px rgb(0,0,0)">
         {copyRight}
       </Text>
     </Flex>

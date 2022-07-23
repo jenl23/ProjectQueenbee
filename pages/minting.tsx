@@ -123,12 +123,12 @@ const Minting: NextPage = () => {
             <Image
               src={newNFT.image}
               borderRadius="lg"
-              fallbackSrc="../images/loading.png"
+              fallbackSrc="../images/unreveal.jpg"
               alt="nft"
             />
           ) : (
             <Image
-              src="../images/loading.png"
+              src="../images/unreveal.jpg"
               borderRadius="lg"
               alt="loading"
             />
