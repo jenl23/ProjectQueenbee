@@ -35,7 +35,7 @@ const Header: FC = () => {
       backgroundImage= "url('../images/header.jpg')"
     >
       <Box fontWeight="bold" fontSize="lg" cursor="pointer">
-        <Link href="/">
+        <Link href="https://qbac.vercel.app">
           <h1>
             Queen Bee Artists Club
           </h1>
